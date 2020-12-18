@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/icono"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtBeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75sp"
+            android:text="Press one of the icons to show you a short operating tutorial"/>
+
+        <Button
+            android:id="@+id/btnNewFolder"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/new_folder" />
+
+        <Button
+            android:id="@+id/btnDowload"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/download" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/upload" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/delete" />
+
+        <Button
+            android:id="@+id/btnModifyName"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/modify_name" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
