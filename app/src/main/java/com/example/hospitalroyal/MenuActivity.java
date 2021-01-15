@@ -34,18 +34,23 @@ public class MenuActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         if(v.getId()==btnNewFolder.getId()){
-            String url = "https://youtu.be/GSbQ4JivqP4";
+            String url = "https://youtu.be/9XFz_uuytrE";
             startVideo(url);
         }else if(v.getId()==btnDowload.getId()){
-
+            String url = "https://youtu.be/iVVkyjsg0i0";
+            startVideo(url);
         }else if(v.getId()==btnUpload.getId()){
-
+            String url = "https://youtu.be/vsz2qULgX9Y";
+            startVideo(url);
         }else if(v.getId()==btnDelete.getId()){
-
+            String url = "https://youtu.be/6nrQuTUmtRI";
+            startVideo(url);
         }else if(v.getId()==btnModifyName.getId()){
-
+            String url = "https://youtu.be/LAiWWgDNmcc";
+            startVideo(url);
         }else if(v.getId()==btnSendEmail.getId()){
-
+            String url = "https://youtu.be/j1HVuniMx78";
+            startVideo(url);
         }
     }
 
