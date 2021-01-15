@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
         c.moveToFirst();
         while (c.moveToNext()) {
             texts.add(c.getString(c.getColumnIndex("Text")));
-            Log.d("myTag", "ENTRAsaddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd: " + c.getString(c.getColumnIndex("Text")));
-            System.out.println("ENTRA: " + c.getString(1));
         }
         //Cerramos la base de datos
         db.close();
