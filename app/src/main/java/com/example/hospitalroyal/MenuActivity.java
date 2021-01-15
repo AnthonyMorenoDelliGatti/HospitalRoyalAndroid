@@ -34,7 +34,7 @@ public class MenuActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         if(v.getId()==btnNewFolder.getId()){
-            String url = "https://www.youtube.com/watch?v=kuzAZ4eQ08c";
+            String url = "https://youtu.be/GSbQ4JivqP4";
             startVideo(url);
         }else if(v.getId()==btnDowload.getId()){
 

@@ -24,10 +24,10 @@
             android:layout_alignParentRight="true" />
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/txtBeta"
+            android:id="@+id/txtInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="75sp"
+            android:layout_marginTop="15sp"
             android:text="Press one of the icons to show you a short operating tutorial"/>
 
         <Button
@@ -64,7 +64,13 @@
             android:layout_height="70sp"
             android:layout_marginTop="20sp"
             android:background="@drawable/modify_name" />
-    </LinearLayout>
 
+        <Button
+            android:id="@+id/btnSendEmail"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/email" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
