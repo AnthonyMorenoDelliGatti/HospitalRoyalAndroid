@@ -14,10 +14,6 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
         <com.google.android.material.imageview.ShapeableImageView
@@ -32,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="75sp"
-            android:text="Press one of the icons to show you a short operating tutorial" />
+            android:text="Press one of the icons to show you a short operating tutorial"/>
 
         <Button
             android:id="@+id/btnNewFolder"
